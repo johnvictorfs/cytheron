@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "cyther"
+name = "cytheron"
 version = "0.1.0"
 description = ""
 authors = ["johnvictorfs", "guilherme-vasconcelos"]
@@ -20,5 +20,4 @@ requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
 
 [tool.poetry.scripts]
-cyther = 'cyther.cli:main'
-
+cytheron = 'cytheron.cli:main'
